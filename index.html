@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style/style.css">
+    </head>
+        <body>
+        
+        <h1>Welcome to Brett's application to BentoBox.</h1>
+
+        <img class="bento-image" src="bento-image.gif" alt="bento box">
+        <p class="image-credit">image credit: restaurant-hospitality.com</p> 
+
+        <p>In my cover letter I explained that I started The Odin Project
+        a few weeks ago. This is the first website I have built from scratch.
+        It took me a couple of hours, but I thought it would be a fun way
+        for me to interview you.</p>
+
+        <p>So I'm going to ask you some super fair questions:</p>
+
+            <form action="/action_page.php">
+            <p>Would you like your new hire to have a sense of humor?</p>
+                <label for="humor"></label>
+                <select id="humor" name="humor">
+                    <option>Yes</option>
+                    <option>Yes</option>
+                </select>
+            <p>Would you like your new hire to be drama free?</p>
+                <label for="drama"></label>
+                <select id="drama" name="drama">
+                    <option value="Yes">Yes</option>
+                    <option value="Yes">Yes</option>
+                </select> 
+            <p>Would you like your new hire to enjoy learning new skills?</p>
+                <label for="skills"></label>
+                <select id="skills" name="skills">
+                    <option value="Yes">Yes</option>
+                    <option value="Yes">Yes</option>
+                </select>  
+            <p>Would you like your new hire to have optimism?</p>
+                <label for="optimist"></label>
+                <select id="optimist" name="optimist">
+                    <option value="Yes">Yes</option>
+                    <option value="Yes">Yes</option>
+                </select> 
+            </form>
+
+        <div class="submit">
+            <button onclick="submitFunction()">Submit</button>  
+            <script src="script/script.js"></script>
+        </div>
+        
+        </body>
+    
+</html>

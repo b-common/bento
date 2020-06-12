@@ -1,0 +1,21 @@
+html {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bento-image {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+    text-align: center; 
+}
+
+.image-credit {
+    font-size: 10px;
+    font-family: arial, sans-serif;
+}
+
+.submit {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
